@@ -4704,7 +4704,7 @@ var tagNames = {"lipsync":"Lip-sync","ext_lib":"Extensive Library","starters":"S
 	</div>
 </div>
 
-<div id="personal-preview-overlay" class="modal hide">
+<div id="personal-preview" class="modal hide">
 	<div class="modal-header">
 		<button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
 		<h3 class="modal-title">Preview the <span class="theme-name"></span> <span class="app-type"></span></h3>
@@ -4927,7 +4927,7 @@ function bannedUser(value){
 	var _qevents = _qevents || [];
 	(function() {
 		var elem = document.createElement('script');
-		elem.src = (document.location.protocol == "https:" ? "http://web.archive.org/web/20140228083745/https://secure" : "http://web.archive.org/web/20140228083745/http://edge")
+		elem.src = (document.location.protocol == "https:" ? "https://secure" : "https://edge")
 			+ ".quantserve.com/quant.js";
 		elem.async = true;
 		elem.type = "text/javascript";
@@ -4940,7 +4940,7 @@ function bannedUser(value){
 </script>
 <noscript>
 <div style="display: none;">
-	<img src="http://web.archive.org/web/20140228083745im_/http://pixel.quantserve.com/pixel/p-66CFnJxwubvnE.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+	<img src="https://pixel.quantserve.com/pixel/p-66CFnJxwubvnE.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
 </div>
 </noscript>
 <!-- End Quantcast tag -->
