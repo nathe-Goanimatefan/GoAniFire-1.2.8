@@ -4604,12 +4604,12 @@ $('.vm-bf-dots a').click(function(e) {
 				<div class="theme-meat">
 					<h3>Visual Effects</h3>
 					<div class="apps">
-						<button class="btn btn-orange" type="button" data-action="personal-preview" data-theme="Visual Effects" data-app-type="Video Maker" data-button-text="Preview Video Maker" data-callback="fullscreenStudio('/go_full?tray=vsfx');" title="" data-original-title="Video Maker">Preview Video Maker</button>
+						<button class="btn btn-orange" type="button" data-action="upsell" data-hook="character" data-hook-button-text="Preview Video Maker" data-callback="fullscreenStudio('/go_full/preview?tray=vsfx');" title="New Video Maker">Preview Video Maker</button>
 					
 					</div>
 				</div>
 			</div>
-		<div class="theme-tag biz">Temporarily Fix</div></div><div class="theme" id="thm-underwater" data-tags="char_creator lipsync starters ext_lib qvm">
+		<div class="theme-tag biz">In Beta</div></div><div class="theme" id="thm-underwater" data-tags="char_creator lipsync starters ext_lib qvm">
 			<div class="theme-cell">
 				<div class="theme-cover launch">
 					<img src="https://sageawesomegoanipicscope9865.github.io/old-goanimate-files/Spongebob_SquarePants.jpg" alt="Spongebob Squarepants">
@@ -4823,7 +4823,45 @@ var tagNames = {"lipsync":"Lip-sync","ext_lib":"Extensive Library","starters":"S
 	</div>
 </div>
 
+<div class="modal upsell-modal hide" id="upsell-modal" data-page="videomaker">
+	<div class="modal-header">
+		<button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3 class="modal-title">Preview Video Maker</h3>
+	</div>
+	<div class="modal-body">
+		<div class="upsell-features-wrapper ">
+			<div class="upsell-features">
+				<div class="upsell-feature character">
+					<div class="upsell-feature-body">
+						<p i know that the videomaker for the theme you choose is currently in beta at the moment. but previewing it will allow you to take a sneak peek of the videomaker itself.</p>
+					</div>
+		<a class="upsell-arrow left" href="#"></a>
+		<a class="upsell-arrow right" href="#"></a>
 
+		<ol class="upsell-index">
+			<li class="active"><span class="upsell-index-dot"></span></li>
+			<li><span class="upsell-index-dot"></span></li>
+			<li><span class="upsell-index-dot"></span></li>
+			<li><span class="upsell-index-dot"></span></li>
+			<li><span class="upsell-index-dot"></span></li>
+			<li><span class="upsell-index-dot"></span></li>
+			<li><span class="upsell-index-dot"></span></li>
+			<li><span class="upsell-index-dot"></span></li>
+			<li><span class="upsell-index-dot"></span></li>
+		</ol>
+	</div>
+	<div class="modal-footer">
+
+		<button class="btn btn-orange btn-cta" data-dismiss="modal">Preview Video Maker</button>
+
+		<a class="btn btn-upsell" data-dismiss="modal" aria-hidden="true">Cancel</a>
+
+	</div>
+</div>
+
+<script src="/static/477/go/js/upsell.js"></script>
+
+</div>
 <!-- END OF PAGE STRUCTURE -->
 
 
